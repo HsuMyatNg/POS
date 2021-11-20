@@ -1,0 +1,56 @@
+.width-10{
+    width: 20%;
+}
+.single_product{
+    padding: 15px;
+    border-radius: 0.25rem;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    -ms-border-radius: 0.25rem;
+    -o-border-radius: 0.25rem;
+    cursor: pointer;
+    background-color: #fff;
+    margin: 0 0 15px 15px;
+}
+.single_product img{
+    width: 100%;
+    box-shadow: 5px 5px 10px #c6c6c6;
+    border-radius: 00.25rem;
+    -webkit-border-radius: 00.25rem;
+    -moz-border-radius: 00.25rem;
+    -ms-border-radius: 00.25rem;
+    -o-border-radius: 00.25rem;
+}
+.single_product h3{
+    margin: 10px 0;
+    font-size: 95%;
+    min-height: 35px;
+}
+.single_product p{
+    margin: 0;
+    font-size: 80%;
+    color: #6d6d6d;
+}
+.add_to_cart{
+    padding: 7px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: rgb(255,255,0);
+    border: none;
+    border-radius: 0.25rem;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    -ms-border-radius: 0.25rem;
+    -o-border-radius: 0.25rem;
+    color: #fff;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.add_to_cart:hover{
+    background-color: rgb(255,123,0);
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}

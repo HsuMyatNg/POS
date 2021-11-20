@@ -1,0 +1,5 @@
+.product_list_row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
