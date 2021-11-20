@@ -15,7 +15,7 @@ const ProductForm = (props) => {
             title: titleValue,
             price: priceValue,
         };
-        console.log(newProduct);
+        props.addProduct(newProduct);
         setTitleValue("");
         setPriceValue("");
     };
